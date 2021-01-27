@@ -1,0 +1,7 @@
+/.idea/*
+.idea/*
+/clare-pipeline/.terraform/*
+.DS_Store
+*.vscode
+/venv/*
+/venv/
