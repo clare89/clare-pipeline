@@ -19,6 +19,6 @@ resource "aws_security_group" "sg-clare" {
   }
 
   tags = {
-    Name = "Allow RDP"
+    Name = var.tags[terraform.workspace]
   }
 }
