@@ -1,6 +1,6 @@
 
 resource "aws_security_group" "sg-clare" {
-  name        = "sg_clare-test-training"
+  name        = var.security-group-name[terraform.workspace]
   description = "This is a test"
 
   ingress {
