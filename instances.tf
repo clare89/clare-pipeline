@@ -4,7 +4,7 @@ resource "aws_instance" "instance-test" {
   security_groups = [aws_security_group.sg-clare.name]
 
   tags = {
-    Name = "clare-test-2"
+    Name = "clare-test-3"
   }
 }
 
